@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #3f3d56;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 37px;
+  margin-top: 68px;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+
+.label-title {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.gender-title {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 9px;
+}
+
+.v-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.h-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.h-box-gender {
+  width: 396px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gender-selection {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-style {
+  border-color: #abb3a8;
+  border-style: solid;
+  border-width: 1px;
+  width: 18px;
+  margin-bottom: 22px;
+}
+
+.input-field {
+  border-color: #abb3a8;
+  border-style: solid;
+  border-width: 1px;
+  width: 396px;
+  height: 47px;
+  padding-top: 12px;
+  padding-left: 14px;
+  padding-bottom: 11px;
+  margin-bottom: 22px;
+}
+
+.birth-field-style {
+  border-color: #abb3a8;
+  border-style: solid;
+  border-width: 1px;
+  width: 170px;
+  height: 47px;
+  padding-top: 12px;
+  padding-left: 14px;
+  padding-bottom: 11px;
+  margin-bottom: 22px;
+  margin-right: 18px;
+}
+
+.select-field-style {
+  border-color: #abb3a8;
+  border-style: solid;
+  border-width: 1px;
+  width: 208px;
+  height: 47px;
+  padding-top: 12px;
+  padding-left: 14px;
+  padding-bottom: 11px;
+  margin-bottom: 22px;
+}
+
+.v-box-eula {
+  display: flex;
+  flex-direction: row;
+  width: 396;
+}
+
+.checkv-box-style {
+  width: 18;
+  height: 18;
+  margin-right: 10px;
+}
+
+.register-style {
+  color: #ffffff;
+  background-color: #3f3d56;
+  width: 396px;
+  height: 47px;
+  border-radius: 5px;
+  border-width: 0px;
+  font-weight: 500px;
+  font-size: 16px;
+  margin: 28px;
+}
+
+.login-style {
+  color: #ffffff;
+  background-color: #3f3d56;
+  width: 514px;
+  height: 47px;
+  border-radius: 5px;
+  border-width: 0px;
+  font-weight: 500px;
+  font-size: 16px;
+  margin: 28px;
+}

@@ -1,0 +1,79 @@
+<head>
+  <title>Aula - 2 - Formulário</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link href="./styles.css" rel="stylesheet" />
+</head>
+<body>
+  <h1 class="title">Faça seu cadastro</h1>
+
+  <div class="v-box">
+    <label class="label-title" for="name-field">Nome Completo</label>
+    <input type="text" id="name-field" class="input-field" placeholder="Digite seu nome completo"/>
+  </div>
+
+  <div class="h-box">
+    <div class="v-box">
+      <label class="label-title" for="birth-field">Data de Nascimento</label>
+      <input class="birth-field-style" type="date" id="birth-field"/>
+    </div>
+    <div class="v-box">
+    <label class="label-title" for="country-field">País</label>
+    <select class="select-field-style" id="country-field">
+      <option>Brasil</option>
+      <option>Argentina</option>
+      <option>Chile</option>
+      <option>Uruguai</option>
+    </select>
+    </div>
+  </div>
+
+  </div>
+  
+  <div class="gender-selection">
+    <label class="label-title">Gênero</label>
+    <div class="h-box-gender">
+      <div>
+        <input type="radio" class="radio-style" name="input-gender" id="" />
+        <label class="label-title">Feminino</label>
+      </div>
+      <div>
+        <input type="radio" class="radio-style" name="input-gender" id="" />
+        <label class="label-title">Masculino</label>
+      </div>
+      <div>
+        <input type="radio" class="radio-style" name="input-gender" id="" />
+        <label class="label-title">Não Declarar</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="v-box">
+    <label>E-mail</label> <input type="email" class="input-field" placeholder="Digite seu e-mail" />
+  </div>
+
+  <div class="v-box">
+    <label>Senha</label> <input type="password" class="input-field" placeholder="Crie uma senha" />
+  </div>
+
+  <div class="v-box">
+    <label>Confirme sua senha</label>
+    <input type="password" class="input-field" placeholder="Confirmar senha" />
+  </div>
+
+<div class="v-box-eula">
+    <input type="checkv-box" class="checkv-box-style"/>
+  <p>
+    Aceito os termos e condições e concordo com as políticas de privacidade do
+    Hall to Code
+  </p>
+</div>
+
+  <button class="register-style">Cadastrar</button>
+
+  <p>Já tem uma conta no Hall to Code? <a href="./login.html">Entre Agora</a></p>
+</body>
